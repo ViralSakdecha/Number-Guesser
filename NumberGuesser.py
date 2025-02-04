@@ -1,6 +1,6 @@
 import random
 
-print("Welcome to random Number Generator:")
+print("Welcome to Number Guesser:")
 
 num = random.randrange(100)
 chance = 7

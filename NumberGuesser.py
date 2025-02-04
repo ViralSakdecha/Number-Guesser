@@ -9,7 +9,7 @@ print("You have 7 chances to guess the number:")
 
 for i in range(0,chance,1):
     
-    guess = int(input("Guess number between 1 to 100:"))
+    guess = int(input("Guess the number between 1 to 100:"))
     
     if num==guess:
         print("Congrats!, You guessed the number in",i+1,attemps)
